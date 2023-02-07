@@ -8,6 +8,7 @@ body{
     gap: 30px;
     height: 90px;
     justify-content: center;
+    align-items: center;
 }
 
 #nav a{

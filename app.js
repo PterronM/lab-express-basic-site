@@ -22,6 +22,10 @@ app.get("/works" , (req,res)=>{
         console.log(__dirname)
         res.sendFile(__dirname + "/view/works.html")
 })
+app.get("/galery" , (req,res)=>{
+        console.log(__dirname)
+        res.sendFile(__dirname + "/view/galery.html")
+})
 
 
 
